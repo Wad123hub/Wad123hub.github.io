@@ -2,16 +2,8 @@
 layout: default
 title: ""
 ---
+
 {% if site.show_excerpts %}
-
-{% capture source %}{% include_relative archive.html title="Post2" %}{% endcapture %}
-{{ source | split: "---" | last }}
-
-
-
-
-
-<!-- {% if site.show_excerpts %}
   {% for post in site.posts %}
     <article>
       {% include meta.html post=post %}
@@ -22,7 +14,7 @@ title: ""
 {% else %}
   {% capture source %}{% include_relative archive.html title="Post2" %}{% endcapture %}
   {{ source | split: "---" | last }}
-{% endif %} -->
+{% endif %}
 
 
 
