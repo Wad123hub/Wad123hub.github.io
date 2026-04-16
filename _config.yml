@@ -21,10 +21,11 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   # - {file: "archive.html", title: "pages", sidebaricon: home}
   # - {file: "archive.html", title: "post", sidebaricon: home}
   # - {file: "archive.html", title: "publications", sidebaricon: home}
-  - {file: "Wade Bio LLM 2.pdf", title: "Bio", sidebaricon: home}
+  # - {file: "Wade Bio LLM 2.pdf", title: "Bio", sidebaricon: home}
   # - {file: "README.md", sidebaricon: address-card}
   - {title: "Lab", url: "https://faculty.eng.ufl.edu/smartsystems/"}
   - {title: "page test", file: "page_test.md"}
+  - {title: "Bio", file: "bio.md"}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "w.fortney@ufl.edu"}
