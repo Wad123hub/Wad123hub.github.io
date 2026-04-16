@@ -21,8 +21,8 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   # - {file: "archive.html", title: "pages", sidebaricon: home}
   # - {file: "archive.html", title: "post", sidebaricon: home}
   # - {file: "archive.html", title: "publications", sidebaricon: home}
-  - {file: "University of South Florida - Electrical Eng Tenure Track Positions (Assistant_Associate Professor) job with Electrical Engineering _ 37919198.pdf", title: "file test", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
+  - {file: "Wade Bio LLM 2.pdf", title: "Bio", sidebaricon: home}
+  # - {file: "README.md", sidebaricon: address-card}
   - {title: "Lab", url: "https://faculty.eng.ufl.edu/smartsystems/"}
   - {title: "page test", file: "page_test.md"}
 
