@@ -24,7 +24,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "University of South Florida - Electrical Eng Tenure Track Positions (Assistant_Associate Professor) job with Electrical Engineering _ 37919198.pdf", title: "file test", sidebaricon: home}
   - {file: "README.md", sidebaricon: address-card}
   - {file: "Lab", url: "https://faculty.eng.ufl.edu/smartsystems/"}
-  - {title: "page test", file: "/blog.md"}
+  - {title: "page test", file: "blog.md"}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "w.fortney@ufl.edu"}
