@@ -1,10 +1,16 @@
 ---
-<!-- layout: default
-title: "blog" -->
-layout: page
+layout: default
 title: ""
 ---
-This ia a test biography
+{% if site.show_excerpts %}
+
+{% capture source %}{% include_relative archive.html title="Post2" %}{% endcapture %}
+{{ source | split: "---" | last }}
+
+
+
+
+
 <!-- {% if site.show_excerpts %}
   {% for post in site.posts %}
     <article>
